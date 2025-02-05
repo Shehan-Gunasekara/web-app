@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lonovm-dev-173120-authRole",
+      "UnauthRoleArn": "arn:aws:iam::730335266000:role/amplify-lonovm-dev-173120-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::730335266000:role/amplify-lonovm-dev-173120-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-lonovm-dev-173120-deployment",
+      "UnauthRoleName": "amplify-lonovm-dev-173120-unauthRole",
+      "StackName": "amplify-lonovm-dev-173120",
+      "StackId": "arn:aws:cloudformation:us-east-1:730335266000:stack/amplify-lonovm-dev-173120/fa686fb0-afaf-11ee-91bb-129616fa9bcd",
+      "AmplifyAppId": "d1uwe232z953uu"
+    },
+    "categories": {
+      "auth": {
+        "lonovmae9ccfa0": {
+          "userPoolId": "us-east-1_z1ixG8afz",
+          "userPoolName": "lonovm-user-pool",
+          "webClientId": "6ea32o1v1dbqtvrkap1cie6ni5",
+          "nativeClientId": "6ea32o1v1dbqtvrkap1cie6ni5",
+          "identityPoolId": "us-east-1:d1c30c8c-3660-43bd-b4ac-b232fa1786b0",
+          "identityPoolName": "lonovm-identity-pool",
+          "allowUnauthenticatedIdentities": false,
+          "authRoleArn": "arn:aws:iam::730335266000:role/authenticated_role",
+          "authRoleName": "authenticated_role",
+          "unauthRoleArn": "arn:aws:iam::730335266000:role/unauthenticated_role",
+          "unauthRoleName": "unauthenticated_role"
+        }
+      }
+    }
+  }
+}

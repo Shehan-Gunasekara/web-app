@@ -1,0 +1,87 @@
+const style = {
+  smallTable: {
+    display: "flex",
+    flexDirection: "row" as "row",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: "0.2rem",
+    cursor: "pointer",
+  },
+  smallTableLeft: {
+    width: "0.375rem",
+    height: "2.625rem",
+    borderRadius: "10px 0px 0px 10px",
+  },
+  smallTableMid: {
+    display: "flex",
+    flexDirection: "column" as "column",
+    justifyContent: "center",
+    alignItems: "center",
+    width: "5.438rem",
+    height: "3.875rem",
+    borderRadius: "0.625rem",
+    padding: "0.2rem",
+  },
+  smallTableRight: {
+    width: "0.375rem",
+    height: "2.625rem",
+    borderRadius: "0px 10px 10px 0px",
+  },
+  largeTable: {
+    display: "flex",
+    flexDirection: "column" as "column",
+    alignItems: "center",
+    gap: "0.2rem",
+    cursor: "pointer",
+  },
+  largeTableTop: {
+    width: "2.625rem",
+    height: "0.563rem",
+    borderRadius: "10px 10px 0px 0px",
+  },
+  largeTableMid: {
+    display: "flex",
+    flexDirection: "column" as "column",
+    justifyContent: "center",
+    alignItems: "center",
+    minHeight: "5.875rem",
+    minWidth: "3.875rem",
+    borderRadius: "0.625rem",
+    padding: "0.2rem",
+  },
+  largeTableBottom: {
+    width: "2.625rem",
+    height: "0.563rem",
+    borderRadius: "0px 0px 10px 10px",
+  },
+  roundTable: {
+    display: "flex",
+    flexDirection: "column" as "column",
+    justifyContent: "center",
+    alignItems: "center",
+    gap: "0.625rem",
+    cursor: "pointer",
+  },
+  roundedTableCircle: {
+    width: "1.125rem",
+    height: "1.125rem",
+    borderRadius: "50%",
+  },
+  roundCircleMid: {
+    display: "flex",
+    flexDirection: "row" as "row",
+    alignItems: "center",
+    gap: "0.625rem",
+  },
+  roundCircleMidCircle: {
+    display: "flex",
+    flexDirection: "column" as "column",
+    justifyContent: "center",
+    alignItems: "center",
+    width: "5.625rem",
+    height: "5.625rem",
+    borderRadius: "50%",
+  },
+};
+
+export default style;

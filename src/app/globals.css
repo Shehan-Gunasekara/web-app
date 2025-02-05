@@ -1,0 +1,114 @@
+/* Hide the scrollbar for Webkit browsers (Chrome, Safari) */
+body::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+/* Style for WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #565759;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #dddddd;
+}
+
+.switch-right-mark .ant-switch-inner {
+  position: relative;
+
+  font-size: 100px;
+}
+
+.switch-right-mark .ant-switch-inner::after {
+  content: "\2714";
+  position: absolute;
+  top: 50%;
+  right: 1px;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: bold;
+  color: #277d54;
+  visibility: hidden;
+}
+
+.switch-right-mark.ant-switch-checked .ant-switch-inner::after {
+  visibility: visible;
+}
+
+.switch-right-mark .ant-switch-inner span {
+  display: flex;
+  align-items: center;
+}
+
+.select-tax.ant-select-disabled .ant-select-selector {
+  border-color: #595a5d !important;
+}
+
+.exo_init {
+  font-family: var(--font-exo);
+}
+
+@keyframes enlarge {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes glow {
+  0% {
+    outline-width: 0;
+  }
+  50% {
+    outline-width: 6px;
+  }
+  100% {
+    outline-width: 0;
+  }
+}
+
+@keyframes expandAndFloat {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 50%;
+  }
+  100% {
+    width: calc(100% - 8px);
+    /* left: calc(100% - 8px); */
+    /* right: 8px; */
+  }
+}
+
+@layer components {
+  .enlarge {
+    animation: enlarge 0.5s ease-in-out;
+  }
+
+  .glow {
+    animation: glow 0.5s ease-in-out;
+  }
+
+  .animation-effect {
+    width: 100%;
+    animation: expandAndFloat 1s ease forwards;
+  }
+}

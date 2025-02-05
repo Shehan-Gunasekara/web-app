@@ -1,0 +1,19 @@
+{
+  "authSelections": "identityPoolAndUserPool",
+  "resourceName": "lonovmae9ccfa0",
+  "serviceType": "imported",
+  "region": "us-east-1",
+  "usernameAttributes": [
+    "email"
+  ],
+  "requiredAttributes": [
+    "email"
+  ],
+  "passwordPolicyMinLength": 6,
+  "passwordPolicyCharacters": [],
+  "mfaConfiguration": "OFF",
+  "autoVerifiedAttributes": [
+    "email"
+  ],
+  "mfaTypes": []
+}

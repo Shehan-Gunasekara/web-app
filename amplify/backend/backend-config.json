@@ -1,0 +1,101 @@
+{
+  "auth": {
+    "lonovmae9ccfa0": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_lonovmae9ccfa0_allowUnauthenticatedIdentities": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "lonovmae9ccfa0"
+        }
+      ]
+    },
+    "AMPLIFY_auth_lonovmae9ccfa0_authRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "lonovmae9ccfa0"
+        }
+      ]
+    },
+    "AMPLIFY_auth_lonovmae9ccfa0_authRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "lonovmae9ccfa0"
+        }
+      ]
+    },
+    "AMPLIFY_auth_lonovmae9ccfa0_identityPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "lonovmae9ccfa0"
+        }
+      ]
+    },
+    "AMPLIFY_auth_lonovmae9ccfa0_identityPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "lonovmae9ccfa0"
+        }
+      ]
+    },
+    "AMPLIFY_auth_lonovmae9ccfa0_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "lonovmae9ccfa0"
+        }
+      ]
+    },
+    "AMPLIFY_auth_lonovmae9ccfa0_unauthRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "lonovmae9ccfa0"
+        }
+      ]
+    },
+    "AMPLIFY_auth_lonovmae9ccfa0_unauthRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "lonovmae9ccfa0"
+        }
+      ]
+    },
+    "AMPLIFY_auth_lonovmae9ccfa0_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "lonovmae9ccfa0"
+        }
+      ]
+    },
+    "AMPLIFY_auth_lonovmae9ccfa0_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "lonovmae9ccfa0"
+        }
+      ]
+    },
+    "AMPLIFY_auth_lonovmae9ccfa0_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "lonovmae9ccfa0"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "extends": "next/core-web-vitals",
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/prefer-default-export": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "caughtErrorsIgnorePattern": "^_"
+      }
+    ],
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": ["error"],
+    "no-param-reassign": "off",
+    "no-console": "off",
+    "no-plusplus": "off",
+    "no-nested-ternary": "off",
+    "no-restricted-syntax": "off",
+    "no-prototype-builtins": "off",
+    "no-await-in-loop": "off"
+  }
+}
